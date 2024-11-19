@@ -1,0 +1,1 @@
+["/root/autodl-tmp/misf-main/data/mask/.ipynb_checkpoints/0_mask-checkpoint.png", "/root/autodl-tmp/misf-main/data/mask/.ipynb_checkpoints/10_mask-checkpoint.png", "/root/autodl-tmp/misf-main/data/mask/0_mask.png", "/root/autodl-tmp/misf-main/data/mask/10_mask.png"]

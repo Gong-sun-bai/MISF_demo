@@ -1,0 +1,1 @@
+["/root/autodl-tmp/misf-main/data/image/.ipynb_checkpoints/0-checkpoint.jpg", "/root/autodl-tmp/misf-main/data/image/.ipynb_checkpoints/10-checkpoint.jpg", "/root/autodl-tmp/misf-main/data/image/.ipynb_checkpoints/2000-checkpoint.jpg", "/root/autodl-tmp/misf-main/data/image/0.jpg", "/root/autodl-tmp/misf-main/data/image/10.jpg", "/root/autodl-tmp/misf-main/data/image/2000.jpg"]

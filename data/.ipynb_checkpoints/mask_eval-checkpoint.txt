@@ -1,0 +1,1 @@
+["/root/autodl-tmp/misf-main/data/mask/eval/00000.png", "/root/autodl-tmp/misf-main/data/mask/eval/01712.png", "/root/autodl-tmp/misf-main/data/mask/eval/03434.png", "/root/autodl-tmp/misf-main/data/mask/eval/05137.png", "/root/autodl-tmp/misf-main/data/mask/eval/06858.png", "/root/autodl-tmp/misf-main/data/mask/eval/08584.png"]

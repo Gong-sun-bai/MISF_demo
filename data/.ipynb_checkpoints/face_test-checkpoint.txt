@@ -1,0 +1,1 @@
+["/root/autodl-tmp/misf-main/data/image/test/0.jpg", "/root/autodl-tmp/misf-main/data/image/test/1.jpg", "/root/autodl-tmp/misf-main/data/image/test/2.jpg", "/root/autodl-tmp/misf-main/data/image/test/3.jpg", "/root/autodl-tmp/misf-main/data/image/test/4.jpg", "/root/autodl-tmp/misf-main/data/image/test/5.jpg", "/root/autodl-tmp/misf-main/data/image/test/6.jpg"]

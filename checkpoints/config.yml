@@ -1,0 +1,57 @@
+NMS: 1                       # 非极大值抑制(NMS)的阈值
+
+SEED: 10                    # 随机种子
+
+DEBUG: 1                    # 开启调试模式
+VERBOSE: 0                  # 输出控制台的详细模式
+
+TRAIN_FLIST: ./data/face_train.txt   # 训练集文件列表
+VAL_FLIST: ./data/face_val.txt     # 验证集文件列表
+TEST_FLIST: ./data/face_test.txt     # 测试集文件列表
+
+TRAIN_MASK_FLIST: ./data/mask_train.txt   # 训练集遮罩文件列表
+VAL_MASK_FLIST: ./data/mask_eval.txt     # 验证集遮罩文件列表
+#TEST_MASK_FLIST: ./data/mask_test_20.txt     # 测试集遮罩文件列表
+#TEST_MASK_FLIST: ./data/mask_test_40.txt
+TEST_MASK_FLIST: ./data/mask_test_60.txt
+
+LR: 0.0001                 # 学习率
+D2G_LR: 0.1                # 判别器/生成器学习率比例
+BETA1: 0.0                 # Adam优化器的beta1参数
+BETA2: 0.9                 # Adam优化器的beta2参数
+
+INPUT_SIZE: 256            # 训练输入图像大小，0表示原始大小
+MAX_ITERS: 370810            # 模型训练的最大迭代次数
+
+L1_LOSS_WEIGHT: 1          # L1损失权重
+FM_LOSS_WEIGHT: 10         # 特征匹配损失权重
+STYLE_LOSS_WEIGHT: 250     # 风格损失权重
+CONTENT_LOSS_WEIGHT: 0.1   # 感知损失权重
+INPAINT_ADV_LOSS_WEIGHT: 0.1  # 对抗损失权重
+
+GAN_LOSS: nsgan            # GAN损失类型：nsgan | lsgan | hinge
+GAN_POOL_SIZE: 0           # 假图像池大小
+
+SAMPLE_INTERVAL: 10000        # 每隔多少次迭代进行采样 (0: 从不采样)
+SAMPLE_SIZE: 5             # 每次采样的图像数量
+LOG_INTERVAL: 100000       # 每隔多少次迭代记录训练状态 (0: 从不记录)
+
+MASK_REVERSE: 0            # 是否反转遮罩：1表示反转，0表示不反转
+MASK_THRESHOLD: 100          # 遮罩阈值，100为敦煌
+
+GPU: [0]                   # GPU ID列表
+BATCH_SIZE: 10             # 训练的输入批量大小
+
+SAVE_INTERVAL: 10         # 每隔多少次迭代保存模型 (0: 从不保存)
+EVAL_INTERVAL: 8         # 每隔多少次迭代进行模型评估 (0: 从不评估)
+
+TRAIN_SAMPLE_INTERVAL: 1000  # 训练样本的采样间隔
+EVAL_SAMPLE_INTERVAL: 203   # 评估样本的采样间隔
+
+TRAIN_SAMPLE_SAVE: ./result/train_sample  # 训练样本保存路径
+EVAL_SAMPLE_SAVE: ./result/val_sample     # 验证样本保存路径
+#TEST_SAMPLE_SAVE: ./result/test_20        # 测试样本保存路径
+#TEST_SAMPLE_SAVE: ./result/test_40
+TEST_SAMPLE_SAVE: ./result/test_60
+
+MODEL_LOAD: 370800_InpaintingModel        # 载入的模型名称
